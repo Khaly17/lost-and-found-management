@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\LostAndFoundCoreApi\\LostAndFoundCoreApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\Lostandfound.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\Lostandfound.Application.csproj",
+        "projectName": "Lostandfound.Application",
+        "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\Lostandfound.Application.csproj",
+        "packagesPath": "C:\\Users\\SNDIENGK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SNDIENGK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\Lostandfound.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\Lostandfound.DAL.csproj",
+        "projectName": "Lostandfound.DAL",
+        "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\Lostandfound.DAL.csproj",
+        "packagesPath": "C:\\Users\\SNDIENGK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SNDIENGK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\Lostandfound.Domaine.csproj": {
+                "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\Lostandfound.Domaine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\Lostandfound.Domaine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\Lostandfound.Domaine.csproj",
+        "projectName": "Lostandfound.Domaine",
+        "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\Lostandfound.Domaine.csproj",
+        "packagesPath": "C:\\Users\\SNDIENGK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Domaine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SNDIENGK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\Lostandfound.Portal.shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\Lostandfound.Portal.shared.csproj",
+        "projectName": "Lostandfound.Portal.shared",
+        "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\Lostandfound.Portal.shared.csproj",
+        "packagesPath": "C:\\Users\\SNDIENGK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SNDIENGK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\LostAndFoundCoreApi\\LostAndFoundCoreApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\LostAndFoundCoreApi\\LostAndFoundCoreApi.csproj",
+        "projectName": "LostAndFoundCoreApi",
+        "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\LostAndFoundCoreApi\\LostAndFoundCoreApi.csproj",
+        "packagesPath": "C:\\Users\\SNDIENGK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\LostAndFoundCoreApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SNDIENGK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\Lostandfound.Application.csproj": {
+                "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Application\\Lostandfound.Application.csproj"
+              },
+              "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\Lostandfound.DAL.csproj": {
+                "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.DAL\\Lostandfound.DAL.csproj"
+              },
+              "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\Lostandfound.Portal.shared.csproj": {
+                "projectPath": "C:\\Users\\SNDIENGK\\Documents\\challenge\\Lost-and-found-management\\Lostandfound.Portal.shared\\Lostandfound.Portal.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

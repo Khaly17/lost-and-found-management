@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+  lostandfound:
+    image: postgres:15-alpine
+    networks:
+      - backend
+
+  adminer:
+    image: adminer
+    networks:
+      - backend
+
+  lostandfoundnotificationapi:
+    image: ${DOCKER_REGISTRY-}lostandfoundnotificationapi
+    build:
+      context: .
+      dockerfile: LostAndFoundNotificationApi/Dockerfile
+
+  lostandfoundcoreapi:
+    image: ${DOCKER_REGISTRY-}lostandfoundcoreapi
+    build:
+      context: .
+      dockerfile: LostAndFoundCoreApi/Dockerfile
+
+  lostandfounddocumentapi:
+    image: ${DOCKER_REGISTRY-}lostandfounddocumentapi
+    build:
+      context: .
+      dockerfile: LostAndFoundDocumentApi/Dockerfile
+
+networks:
+  backend:
+    name: lostandfound-network
+volumes:
+  data-postgres:
